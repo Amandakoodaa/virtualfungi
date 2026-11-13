@@ -1,0 +1,893 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Ecolieu Argoumbat",
+                "Network": "Cooperative Oasis",
+                "Country": "France",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.argoumbat.org/",
+                "Description": "Ecolieu Argoumbat's mission is to enable everyone to fulfil their pontiac, living together in harmony with the living world, in service of a fairer world. The  diverse community is made up of about 15 residents. Argoumbat hosts events, courses, training sessions and workshops around the themes of participatory habitat creation, eco-environment living, well-being and personal development, spirituality, cultural and artistic creation, ecosystem regeneration and food production. They are organised by the Les Lucioles association and run by residents or outside contributors.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/cooperative-oasis/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Argoumbat.jpg",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 43.9101943,
+                "Longitude": 0.9699408
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.9699408,
+                    43.9101943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Busha Toloka",
+                "Network": "GEN Ukraine",
+                "Country": "Ukraine",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://bushatoloka.com/",
+                "Description": "Busha Toloka is a community of like-minded people, aiming to create an island of peace, and an example of sustainable life in Ukrainian eco-village. They are sharing values of taking care about the nature and about each other to empower people to having accessibility to natural resources, creative and affordable solutions for self sufficient, healthy and joyful life.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-ukraine/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/BushaToloka.jpg",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 48.336248,
+                "Longitude": 28.12154
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.12154,
+                    48.336248
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Arterra Bizimodu",
+                "Network": "Red Ib\u00e9rica de Ecoaldeas",
+                "Country": "Spain",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://arterrabizimodu.org/",
+                "Description": "Arterra Bizimodu is an intentional community that was born in the spring of 2014 in the town of Artieda, Navarra. With the slogan \u2018Another world is not only possible, but necessary\u2019, since then we have been working as an Ecovillage with the aim of promoting activities towards self-sufficiency and exploring other economies that reflect a new balance between the personal and the collective, bringing out the creativity and diverse talents of each of the individuals joining the project. We do this based on the trust that by joining together, the path is easier.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/red-iberica-de-ecoaldeas-rie/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/cropped-DSC_0089-1-scaled-1024x768-1.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/qdsiWcHWy476eBw",
+                "Latitude": 42.715108,
+                "Longitude": -1.325935
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.325935,
+                    42.715108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Dyssekilde",
+                "Network": "Landsforeningen for \u00d8kosamfund",
+                "Country": "Denmark",
+                "MembershipType": "Full member ecovillage",
+                "URL": "http://dyssekilde.dk/",
+                "Description": "The Ecovillage Dyssekilde, founded in 1987,  is made up of 7 housing groups made from sustainable and recycled materials, and values slow-energy consumption and simplicity. Initiatives include a culture-festival week, a music festival, and several activity groups including an artist group, handworker group, and a recycling group. They are now an integral part of their mainstream surroundings, having created a kindergarten, a health-food shop, bakery, school and a local community hall. ",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/landsforeningen-for-okosamfund-los/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Dyssekilde.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/J98Bk5d2mM7sgrA",
+                "Latitude": 55.9851398,
+                "Longitude": 11.9421225999999
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.9421225999999,
+                    55.9851398
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Lebensgarten Steyerberg",
+                "Network": "GEN Germany",
+                "Country": "Germany",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.lebensgarten.de",
+                "Description": "The Garden of Life is a community and non-profit organization founded in 1984. The 170 people aim to live in cooperation with nature. Spiritual practises are an integral part of daily life with singing in the chapel, dancing, and meditation. They are an education center promoting understanding and mediation through conflict resolution skills. Their CAIA Academy holds retreats and seminars on topics including holistic healing methods, ecological models, and local craft and design.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-deutschland/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Steyerberg.jpg",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 52.5863235718187,
+                "Longitude": 9.02332895109554
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.02332895109554,
+                    52.5863235718187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Sieben Linden",
+                "Network": "GEN Germany",
+                "Country": "Germany",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://siebenlinden.org/de/",
+                "Description": "Sieben Linden is a large ecovillage with a small ecological footprint, housing 150 people living on 100 ha of land, since 1997. The community contains sustainable gardens, renewable energy concepts, and straw bale houses. Visiting their ecovillage will impart techniques on community building, personality development, ecology, non-violent communication and more. They host a wide range of seminars, and have a rich selection of online webinars on their website.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-deutschland/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/SiebenLinden.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/NKEA75JK6nEo2Ki",
+                "Latitude": 52.6894,
+                "Longitude": 11.14342
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.14342,
+                    52.6894
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Suderbyn",
+                "Network": "ERO",
+                "Country": "Sweden",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://suderbyn.se/",
+                "Description": "Suderbyn is an intentional community of 15-25 people from all over the world, living and working together to create a socially and environmentally sustainable lifestyle. It is a pilot site for creating small-scale regenerative society through a holistic approach. Suderbyn\u2019s non-profit NGO, \u201cRelearn\u201d, works locally and internationally on projects focused on education and holistic models of social and environmental sustainability. It is located in Gotland, an island in the middle of the Baltic sea, which has been appointed as pilot region for the Energy transition of Sweden. ",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/ero-ekobyarnas-riksorganisation/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Suderbyn.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/c59K8H8zFM3mc79",
+                "Latitude": 57.5738009,
+                "Longitude": 18.2082025
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.2082025,
+                    57.5738009
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Zaje\u017eka",
+                "Network": "GEN Seen",
+                "Country": "Slovakia",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://zajezka.sk/",
+                "Description": "Zaje\u017eka is a small village nestled in the rolling hills of central Slovakia. Its revival began in 1994 when a group of young enthusiasts renovated an old farm and established the small community of Ekokomunita Sekier and the NGO Pospolitos\u0165 pre harmonick\u00fd \u017eivot, still active today. Over time, the \"community of cooperating neighbors\" gradually settled in restored village houses and newly built strawbale homes, breathing new life into the area. After 30 years, the local school was reopened, and parents took the initiative to create a forest kindergarten. Today, Zaje\u017eka is home to a variety of independent projects, including the forest kindergarten, the education center of Zivica, a food bank, a cozy caf\u00e9, an art studio, ESC volunteer project and several NGOs",
+                "Membership-status": "Current",
+                "Network-URL": "https://soncnigrici-istra.eu/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Zajezka.webp",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 48.4194102,
+                "Longitude": 19.1598495000001
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.1598495000001,
+                    48.4194102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "ZEGG",
+                "Network": "GEN Germany",
+                "Country": "Germany",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.zegg.de/en/",
+                "Description": "ZEGG aims to be a social and ecological model project in which community living and learning are interwoven. ZEGG was founded in 1991 as a place of research for a non-violent earth, and carried out various social experiments. Now, the community understands itself as a cultural laboratory in which the foundations of an authentic, sustainable and cooperative culture are developed and lived. The ZEGG Education Center facilitates conscious ways of relating with humans and nature using experimental approaches. They host festivals and seminars to create a culture based on connectedness and cooperation.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-deutschland/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/ZEGG.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/7FFMkgMrTMZZiT4",
+                "Latitude": 52.1572032,
+                "Longitude": 12.5921999
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5921999,
+                    52.1572032
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "gASTWERKe eV",
+                "Network": "GEN Germany",
+                "Country": "Germany",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.gastwerke.de/",
+                "Description": "gASTWERKe eV is a community living close to nature based on solidarity and social, ecological, economic and cultural sustainability. The community is composed of 25 adults and 16 children with additional permanent guests, interns and trainees. They value open and authentic communication and experiment with various methods of conscious communication. Local entrepreneurial activities include a Forest kindergarten, Farm shop, Solidarity agriculture - gardening, a shop delivering fresh vegetables, and their gASTWERKe Academy.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-deutschland/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Gastwerke.png",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/8q4S6M2JDexWACc",
+                "Latitude": 51.32752,
+                "Longitude": 9.67202999999995
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.67202999999995,
+                    51.32752
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "\u00c4ngsbacka",
+                "Network": "ERO",
+                "Country": "Sweden",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.angsbacka.com/",
+                "Description": "\u00c4ngsbacka is a course and festival center for personal and spiritual growth run by a dedicated core working community and volunteers since 1996. \u00c4ngsbacka explores how humans can consciously create the life they desire on Earth, and demonstrate pathways to sustainable development, wellbeing, and harmony. \u00c4ngsbacka hosts events intended to celebrate and explore life through openhearted connection and presence. Offers include supportive holistic tools including tantra, yoga, dance, meditation, coaching, and more. Angsbacka\u2019s network includes renowned teachers and musicians who offer their teachings on location.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/ero-ekobyarnas-riksorganisation/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Angsbacka.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/gWriXdWbC5esfBm",
+                "Latitude": 59.60085,
+                "Longitude": 13.69996
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.69996,
+                    59.60085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Heilhaus-Gemeinschaft",
+                "Network": "GEN Germany",
+                "Country": "Germany",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.heilhaus.org/",
+                "Description": "Heilhaus-Gemeinschaft accompanies individuals in all phases of life, offering spaces for spiritual research, community, recovery, and healing. Based on a holistic understanding of health, they provide support on medical, therapeutic, social and spiritual levels. They support pregnancy, newborns, young families, children and young people. The Haus der Mitte , opened in 2016 in the Heilhaus settlement, serves the recovery and healing of body, mind and soul. In addition to a large octagonal room for meditation and culture, there is also the advice center for recovery and healing as well as various practices - for general medicine, dermatology, occupational therapy, osteopathy and speech therapy.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-deutschland/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Heilhaus.webp",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 51.322654,
+                "Longitude": 9.477907
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.477907,
+                    51.322654
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Ecodorp Boekel",
+                "Network": "GEN Netherlands",
+                "Country": "Netherlands",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.ecodorpboekel.nl/",
+                "Description": "Boekel plans to be a neighbourhood of 30 climate-adaptive and climate-positive rental homes, 6 informal care homes, community centre , knowledge and education centre , workshop and offices, with options for autonomous food supply , autonomous energy supply , ecological water purification and sustainable businesses. As per 2023 all homes are constructed and filled. The community is made up of 47 adults and 15 children who are inviting young couples to join. Residents all contribute by participating in working circles.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-nl-ecodorpen-netwerk/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/EcodorpBoekel.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/njjZYEFG26QqSCG",
+                "Latitude": 51.60653,
+                "Longitude": 5.66544
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.66544,
+                    51.60653
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Hallingelille",
+                "Network": "Landsforeningen for \u00d8kosamfund",
+                "Country": "Denmark",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.hallingelille.dk/",
+                "Description": "The ecovillage Hallingelille Started in 2005 and now has 20 houses, lots of adults, children and animals. They are developing their practices of sustainable construction, waste management, recycling waste water, food production, and the social dimension that forms their core. The operation of their land is based on permaculture principles and aims to be carbon neutral. They continuously work to establish businesses, joint and private such as craft businesses, a farm shop, consultancy and a course business. ",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/landsforeningen-for-okosamfund-los/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Hallingelille.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/CGC37GBe5bWDjnZ",
+                "Latitude": 55.49462,
+                "Longitude": 11.81858
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.81858,
+                    55.49462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Ananda Gaorii",
+                "Network": "Landsforeningen for \u00d8kosamfund",
+                "Country": "Denmark",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.anandagaorii.dk/en_gb/",
+                "Description": "Ananda Gaorii integrates spirituality, community and sustainability through their ashram, farm, and learning centre. Their vision is to provide experiences and trainings in the areas of yoga and meditation, community formation and leadership, personal development, health and healing, and sustainable and self-reliant living. They have a registered biodynamic organic farm and are implementing a permaculture design for the property. A mix of short and long term volunteers live and learn with the permanent community, and are encouraged to start projects to generate income for themselves and Ananda Gaorii.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/landsforeningen-for-okosamfund-los/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/AnandaGaori.jpg",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 55.823699,
+                "Longitude": 11.5646159
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5646159,
+                    55.823699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kind Land",
+                "Network": "REEN Russian Ecovillage and Eco-initiative Network",
+                "Country": "Russia",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.dobrayazemlya.ru/eng/",
+                "Description": "Kind Land is a developing community and center of social entrepreneurial activities. Their goals are to improve their community solidarity, obtain new members, involve zero-waste principles, and improve local economics. The community was founded in 2011 and hosts seminars on pedagogy, has a children's camp, a kindergarten and school, and a summer festival. The Kind Land Eco Fest celebrates topics of ecology, humanistic education, organic and biodynamic farming, green entrepreneurship, self actualization and more.  They are open for cooperation and new members.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-russia/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/The-kind-land.png",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 55.901662,
+                "Longitude": 40.622302
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    40.622302,
+                    55.901662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Zeleni Kruchi",
+                "Network": "GEN Ukraine",
+                "Country": "Ukraine",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://zelenikruchi.in.ua/index.php/uk/",
+                "Description": "Zeleni Kruchi is an eco-settlement of several families founded in 2012. They build sustainable homes, live a healthy lifestyle and spend their free time together. Food autonomy is sourced from their 4ha permaculture garden and course center. The permaculture center cultivates ecological products, conducts seminars, festivals and children's camps and is a green tourism attraction. Their biodiverse natural environment holds forests full of mushrooms and pine trees, slopes with medicinal plants, a large pond to swim in, and wild animals. ",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-ukraine/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Zeleni-Kruchi.jpg",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 49.544706,
+                "Longitude": 30.868133
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.868133,
+                    49.544706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nature Community",
+                "Network": "GEN Germany",
+                "Country": "Germany",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://nature.community/",
+                "Description": "Nature Community is a community, event center, and guesthouse in Sch\u00f6nsee, Germany. It is a place for dance and movement, silence and meditation, for rituals and celebrations, a place where loving and mindful connection recognizes the beauty and strength within people and nature. The community is made up of an intergenerational group of individuals and families who commit to mutual support and solidarity. They aim to have their own supply of food through their budding permaculture garden and to have an autonomous energy system. A free school educates their many children. Their seminar centre offers space for up to 350 guests, serves organic vegan cuisine, and features multiple workshop spaces, a wellness centre and spa, and the beauty of nature close to the Bohemian Forest of the Czech Republic.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-deutschland/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Naturecommunity-1.jpg",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 49.514308,
+                "Longitude": 12.534649
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.534649,
+                    49.514308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "New Findhorn Association",
+                "Network": "WISE",
+                "Country": "Scotland",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://findhorn.cc/",
+                "Description": "This spiritual and ecological community was founded by Peter and Eileen Caddy and Dorothy Maclean in 1962 and  has grown around the Findhorn Foundation, and comprises an experiment in conscious living, an education centre and an eco village. The New Findhorn Association is the umbrella organisation to facilitate and encourage development of the community.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-deutschland/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Findhorn.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/QqDgWPJsnbsFJJM",
+                "Latitude": 57.6522987,
+                "Longitude": -3.59336269999994
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.59336269999994,
+                    57.6522987
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Cloughjordan Ecovillage",
+                "Network": "WISE",
+                "Country": "Ireland",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.thevillage.ie/",
+                "Description": "Cloughjordan Ecovillage, founded in 1999, is Ireland's first ecovillage.  The ecovillage is located in Co. Tipperary.  After almost a decade of co-operative development, their first residents moved into their homes in 2009.Their aim is to serve as a model of sustainable living, that can be an education, enterprise, research and service resource for all. They work to; minimise pollution to the air, water and land; demonstrate a new approach to rural regeneration; facilitate systems whereby people can create local and sustainable work; and provide for the cultural, artistic and non-material needs of the residents of the village and surrounding community.",
+                "Membership-status": "Current",
+                "Network-URL": "https://www.facebook.com/globalecovillagenetworkwise/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Cloughjordan.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/W4zw2yRWoPfiK5J",
+                "Latitude": 52.9429442,
+                "Longitude": -8.0383372
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.0383372,
+                    52.9429442
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tamera",
+                "Network": "Red Ib\u00e9rica de Ecoaldeas",
+                "Country": "Portugal",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.tamera.org/",
+                "Description": "Tamera is a peace project in Southern Portugal, a cooperative of future workers, who aim to build a so called \u201cHealing Biotope\u201d for a couple of hundred people. A community between humans, animals and plants whose relationships are based upon trust and mutual support. Tamera was founded in 1995 and is a snapshot of over 40 years of research and development. It is a living model, a pioneer project for the question of humankind living together on this planet.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/red-iberica-de-ecoaldeas-rie/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Tamera.jpg",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 37.7186667,
+                "Longitude": -8.520609
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.520609,
+                    37.7186667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Los Portales",
+                "Network": "Red Ib\u00e9rica de Ecoaldeas\n",
+                "Country": "Spain",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.losportales.net/",
+                "Description": "Los Portales is a community that traces its story back to Brussels, Belgium in 1984. It is located an hour away from Seville in Spain, the community is made up of around thirty people living in four buildings among an immense 700-acre plot of mountainous land.\n",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/red-iberica-de-ecoaldeas-rie/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Losportales.jpeg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/Ht8rNnyq4PMFL6q",
+                "Latitude": 37.7018287,
+                "Longitude": -5.94097099999999
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.94097099999999,
+                    37.7018287
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Le Hameau des Buis",
+                "Network": "Cooperative Oasis",
+                "Country": "France ",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://hameaudesbuis.org/",
+                "Description": "Le Hameau des Buis is an ecovillage located in South-East of France and covers an area of 6 hectares. It was founded in 2004 and has around 50 inhabitants.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/cooperative-oasis/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Hameaudesbuis.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/8wj7ACciiA8kGSt",
+                "Latitude": 44.4078687,
+                "Longitude": 4.2197427
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.2197427,
+                    44.4078687
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "La Smala Ecopol",
+                "Network": "GEN Suisse",
+                "Country": "Switzerland",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://ecopol.net/",
+                "Description": "La Smala Ecopol has created the first ecovillages of the french part of Switzerland, in beautiful sites. La Smala is the mother association, which runs the Eco-Houses owned by the cooperative B\u00e2tir Group\u00e9, with convivial meals open to the public, training of animators, permaculture gardens and an ecological way of living. They have 2 ecovillages already in function since 2016, and growing.In both of our Ecovillages they adopt an ecological and community-based way of living. They live in relatively small private rooms (some of them have private bathroom and kitchen) and we have big shared spaces (cafeteria, party rooms, garage, multi-purpose rooms). The food is usually vegetarian and organic and they share as many things as possible in their everyday life, material and immaterial.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-suisse/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/LaSmala-1.jpg",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 46.4972677,
+                "Longitude": 6.72326720000001
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.72326720000001,
+                    46.4972677
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Schweibenalp",
+                "Network": "GEN Suisse",
+                "Country": "Switzerland",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.schweibenalp.ch/",
+                "Description": "Schweibenalp is a working and living community located in the heart of Switzerland at an altitude of 1,100 meters above sea level. The community has been contributing to the development of a holistic culture of life and universal spirituality for over 40 years and is committed to exploring and realizing a sustainable culture of living and working, and sees itself as a field of action for a holistic change of consciousness.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-suisse/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/ml-monalisa-original-7973-e1572523082441.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/WBeAXRAfHNE2mpF",
+                "Latitude": 46.729551,
+                "Longitude": 8.02276600000005
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.02276600000005,
+                    46.729551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Damanhur Federation",
+                "Network": "RIVE \u2013 Rete Italiana Villaggi Ecologici",
+                "Country": "Italy",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://damanhur.org/",
+                "Description": "Founded in 1975, the Federation of Damanhur is an eco-society: a federation of communities and eco-villages with their own social and political structure in continual evolution. The Federation of Damanhur is a centre for spiritual, artistic and social research known throughout the whole world. Its philosphy is based on action, optimism and upon the idea that every human being lives to leave something of themselves to the others and to contribute towards the growth and evolution of the whole of humanity. The Federation of Damanhur is comprised of communities, with about 20 people living in each of them. Around 400 supporters live in the surrounding valleys and regularly participate in the activities of Damanhur.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/rive-rete-italiana-villaggi-ecologici/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Damanhur.jpeg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/MeGGq6wkFXNqSQX",
+                "Latitude": 45.417626,
+                "Longitude": 7.74780710000005
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.74780710000005,
+                    45.417626
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Torri Superiore",
+                "Network": "RIVE \u2013 Rete Italiana Villaggi Ecologici\n",
+                "Country": "Italy",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://php7.torri-superiore.org/",
+                "Description": "Torri Superiore is an ancient medieval village that has been completely restored to create an Ecovillage and a cultural center open to the public.The community resident at Torri Superiore began with a first small group in 1993, and now has about 20 permanent members, including 8 children and teenagers. The Association (28 members) is based on principles of sustainability and co-operation, with no dogmatic religious or political stand. All main decisions are made with the majority rule by the General Assembly which meets twice a year.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/rive-rete-italiana-villaggi-ecologici/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Torri.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/KjPL3XzZYYysdjH",
+                "Latitude": 43.8403977,
+                "Longitude": 7.55110409999998
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.55110409999998,
+                    43.8403977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Popolo degli elfi",
+                "Network": "RIVE \u2013 Rete Italiana Villaggi Ecologici\n",
+                "Country": "Italy",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.ecovillaggi.it/comunita-e-progetticomunita/ecovillaggi-rive/13-elfi.html?highlight=WyJwb3BvbG8iLCJkZWdsaSIsImVsZmkiXQ==",
+                "Description": "The People of the Elves is one of the most original experiences of the Italian community movement located on the Pistoia Apennines since the eighties.The community is home to more than 150 people in fifteen different residential areas, some of which are even an hour's walk away from each other. A part of the houses is without electricity, self-sufficiency is aimed at, and, when possible, barter is practiced, both between the villages of the community and with other realities.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/rive-rete-italiana-villaggi-ecologici/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/PopolodegliElfi.webp",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/ombsrjsFxfjLL4K",
+                "Latitude": 44.1084394241011,
+                "Longitude": 11.0046179157741
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0046179157741,
+                    44.1084394241011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Comunita di Etica Viviente\n",
+                "Network": "RIVE \u2013 Rete Italiana Villaggi Ecologici",
+                "Country": "Italy",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.comunitadieticavivente.org/",
+                "Description": "The Community of Living Ethics is a cultural, aconfessional and apolitical non-profit association founded in 1981 by Sergio Bartoli and a group of 11 friends, all psychosynthesisers 12. The community is based on study, meditation, service and group life 1. The project is based on psychosynthesis and on a common feeling that encompasses the life experiences of the participants and offers courses and spiritual paths (and more) for those who wish to approach these worlds 34. The Living Ethics Community is formed by a network of centres in an area of about 25 km, surrounded by over 40 hectares of organic farming, located near Citt\u00e0 della Pieve (PG), a town of medieval origin, on the border between Tuscany and Umbria.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/rive-rete-italiana-villaggi-ecologici/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/CommunityoflivingEthics.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/7BPZ2PBc4QXAXx5",
+                "Latitude": 42.95719,
+                "Longitude": 12.00571
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.00571,
+                    42.95719
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Herzfeld Sennr\u00fcti",
+                "Network": "GEN Suisse",
+                "Country": "Switzerland",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://sennrueti.ch/",
+                "Description": "The community is situated on the edge of Degersheim, a rural village in east Switzerland. It is made up of a lively group of approximately 40 adults and 30 children and teenagers. They have followed a holistic life concept since 2006. Key features include: ecological living, sustainable economy, social structures, spiritual practice in everyday life, art and culture, and integration into wider society. We honor the diversity of each individual, encouraging personal development and inner growing. We aspire to each individual finding and growing into their full potential.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-suisse/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Herzfeld-scaled.jpeg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/BpHzF6W2nPgJXmX",
+                "Latitude": 47.3760333,
+                "Longitude": 9.19270959999994
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.19270959999994,
+                    47.3760333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Schloss Glarisegg",
+                "Network": "GEN Suisse",
+                "Country": "Switzerland",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://schloss-glarisegg.ch/",
+                "Description": "Schloss Glarisegg, nestled between a pristine lake and a lush forest, is a thriving intentional community comprising 35 adults and 15 children. It operates as a seminar centre, radiating knowledge and sustainable living practices, harmonising with nature\u2019s rhythms and has been researching consensual, non-denominational culture development since 2003.This enchanting place is a beacon of ecological balance and communal living, where like-minded individuals converge to cultivate knowledge and foster sustainability.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-suisse/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Schoss-Glarisegg.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/LPdnWqDjnDakFcb",
+                "Latitude": 47.6548787,
+                "Longitude": 8.95657949999998
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.95657949999998,
+                    47.6548787
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tribe of Likatien",
+                "Network": "GEN Germany",
+                "Country": "Germany",
+                "MembershipType": "Full member ecovillage",
+                "URL": "http://www.likatien.de/",
+                "Description": "The Likatier tribe is a community of about 200 people who live and work together in F\u00fcssen, a city in the south of Germany. The community was founded in 1974 by Wolfgang Wankmiller, who led it until his death in 2019. The group is not a tribe in the usual sense, since anyone can become a member. It owns several houses and businesses in the city and strives for independence and self-sufficiency with minimal environmental impact",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-deutschland/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Tribe-of-Likatier.jpg",
+                "Interview-URL": "https://gen-europe.org/still-rising-like-a-good-sourdough-come-back-soon-itll-be-worth-the-wait/",
+                "Latitude": 47.5670718,
+                "Longitude": 10.6992712
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.6992712,
+                    47.5670718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Schloss Tempelhof",
+                "Network": "GEN Germany",
+                "Country": "Germany",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.schloss-tempelhof.de/",
+                "Description": "Schloss Tempelhof\" is a grassroots community that has existed in northern Baden-W\u00fcrttemberg since 2010. Almost 150 residents live on the 30-hectare village site. The ecovillage community is expected to grow to 300 residents. The community practices solidarity agriculture according to permaculture principles. There are jobs in a market garden, animal husbandry, cheese dairy, beekeeping, bakery and in the kitchen. Others have been created in the seminar business, the building sector, the administration and in the Free Montessori School.\nEese dairy, beekeeping, bakery and in the kitchen. Others have been created in the seminar business, the building sector, the administration and in the Free Montessori School.",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-deutschland/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2024/08/Tempelhof.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/zmp2nFNPpZHdkaq",
+                "Latitude": 49.126294,
+                "Longitude": 10.2065832000001
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.2065832000001,
+                    49.126294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Catfarm Education ",
+                "Network": "Cooperative Oasis",
+                "Country": "France",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://catfarm.net/",
+                "Description": "Catfarm is an intentional community of international people, exploring self-sufficient living and alternative ways of being in harmony with nature. Off-grid and nestled in a stunning Mediterranean landscape, the farm sits on a hillside in the heart of the scrubland\u2014la garrigue\u2014near Montpellier in the south of France. Rooted in the values of community, creativity, and sustainability, we co-create ethical solutions through art, reuse, and collective effort.\n",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/cooperative-oasis/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2025/05/Catfarm.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/2Z3j9tDPDtNArAy",
+                "Latitude": 42.700088,
+                "Longitude": 2.865616
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.865616,
+                    42.700088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Communaut\u00e9 de l'Arche - Non Violence et Spiritualit\u00e9 ",
+                "Network": "Cooperative Oasis",
+                "Country": "France",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://www.arche-nonviolence.eu/ ",
+                "Description": "After living with Gandhi in India, Lanza del Vasto established the communities of the Ark based on the principles of nonviolence.\u00a0 Though evolving over time, the communities are guided in principle by simplicity and manual work, by sustainability and spiritual\u00a0practice as a way to create peace in ourselves, our communities and in the wider world. ",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/cooperative-oasis/ ",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2025/07/20211008_165402.jpg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/TpLWJafa9yga8AE",
+                "Latitude": 43.779379,
+                "Longitude": 3.19627
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.19627,
+                    43.779379
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Hub Feenix",
+                "Network": "GEN Finland (Skey)",
+                "Country": "Finland",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://community.hubfeenix.fi/",
+                "Description": "Hub Feenix is a shared place to live and work. It functions like a creative village where people shape their own rhythm while existing alongside others doing the same. Community here is spacious by design. It allows for both connection and independence, shared moments and quiet focus.  Housed in a restored historic sanatorium, Hub Feenix spans a 15,000m\u00b2 campus where living and working are closely intertwined. The building brings together apartments, coworking areas, creative spaces and a full suite of amenities - all integrated into daily life.  Historic halls and forested surroundings create a setting that supports both focus and movement. The community has a strong focus on creativity and hosts a large artist residency. Most residents are international. ",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/skey-suomen-kestavan-elamantavan-yhteisot-or-gen-finland/",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2026/09/hub_feenix.jpg\n",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/bJ6f3Wyzr6dMSbb",
+                "Latitude": 60.109133,
+                "Longitude": 23.793625
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.793625,
+                    60.109133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "L\u00f6wenherz Community ",
+                "Network": "GEN Germany",
+                "Country": "Germany",
+                "MembershipType": "Full member ecovillage",
+                "URL": "https://loewenherz-community.de ",
+                "Description": "We're a group of mixed ages (0-67 years), currently 22 humans altogether, re- learning to live in community and re-connecting to nature as a way to contribute to a better world which we believe is very needed. We are located 40km North of Berlin with farms and forests around. We speak a mix of German and English and translate as needed. \n",
+                "Membership-status": "Current",
+                "Network-URL": "https://gen-europe.org/geneunetworks/gen-deutschland/ ",
+                "Image-URL": "https://gen-europe.org/wp-content/uploads/2025/07/loewenherz.jpeg",
+                "Interview-URL": "https://cloud.gen-europe.org/nextcloud/index.php/s/7L3H6F6KWNkLKJm",
+                "Latitude": 52.869166,
+                "Longitude": 13.1456713
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.1456713,
+                    52.869166
+                ]
+            }
+        }
+    ]
+}
