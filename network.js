@@ -1,13 +1,13 @@
-let range = 8;
-let branchingD = 19;
-let neighbourAvoidance = 0.9;
-let forwardPersistence = 1.8;
+let range = 10;
+let branchingD = 13;
+let neighbourAvoidance = 0.8;
+let forwardPersistence = 1.0;
 
-let noiseV = 0.7;
-let branchNoise = 0.2;
+let noiseV = 0.3;
+let branchNoise = 0.9;
 
 let growthStep = 1;
-let maxAttempts = 2;
+let maxAttempts = 10;
 
 class Network {
     constructor(grid) {
@@ -60,7 +60,7 @@ class Network {
 
                 let candidate = this.grid.getElement(i, j);
 
-                if (candidate !== 0 && candidate !== node) {
+                if (candidate !== 0 && candidate !== node && candidate !== -1) {
 
                     let x3 = node.pos.x - candidate.pos.x;
                     let y3 = node.pos.y - candidate.pos.y;
@@ -70,6 +70,7 @@ class Network {
                     if (dSquare > 0 && dSquare < square) {
                         //let brightness = this.grid.getPixel(i, j).grey;
                         //let nutriValue = brightness / 255;
+                        this.grid.getNutrients(x3, y3)
                         x2 += (x3 / dSquare)// * nutriValue;
                         y2 += (y3 / dSquare)// * nutriValue;
                         //nutrient += nutriValue;
@@ -174,14 +175,14 @@ class Network {
         let hold = this.growingTips;
         this.growingTips = this.nextTips;
         this.nextTips = hold;
-        console.log(this.branches.length)
+        //console.log(this.branches.length)
         if (hold.length === 0) {
             this.growing = false;
         }
     }
 
     shrink() {
-        let steps = max(1, min(this.branches.length / 5, 30));
+        let steps = max(1, min(this.branches.length / 10, 30));
         this.branches = this.branches.slice(0, -steps);
         this.nodes = this.nodes.slice(0, -steps);
         if (this.nodes.length === 1) {
@@ -199,10 +200,15 @@ class Network {
                 branch.show();
             }
         } else {
-            background(255);
+            background(col);
+
             for (let branch of this.branches) {
                 branch.show();
+                blendMode(REMOVE)
+                image(img, 0, 0);
+                blendMode(BLEND)
             }
+
         }
         this.newBranches = [];
 

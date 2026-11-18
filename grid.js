@@ -4,24 +4,31 @@ class Grid {
         this.y = y;
         this.grid = new Array(x * y).fill(0);
 
+        for (let i = 0; i < x; i++) {
+            for (let j = 0; j < y; j++)
+                if (dist(x / 2, y / 2, i, j) > x / 2) {
+                    this.grid[(j * this.x) + i] = -1;
+                }
+        }
+        /*
+                for (let i of ecoCommunes) {
+                    // europe latitude 30-73, lontitude -20-45
+                    let x1 = round(map(i.Longitude, -20, 45, 0, this.x)) * scl;
+                    let y1 = round(map(i.Latitude, 30, 73, 0, this.y)) * scl;
+                    circle(x1, y1, 10)
+                    this.grid[this.getIndex(x1, y1)] = i;
+                }*/
     }
-    // europe latitude 30-73, lontitude 20-45
-    //ALL cordinates inside these values
 
     empty() {
         this.grid = new Array(this.x * this.y).fill(0);
     }
-    /*
-        getPixel(x, y) {
-            let i = ((y * scl * video.width) + x * scl) * 4;
-            let r = video.pixels[i + 0];
-            let g = video.pixels[i + 1];
-            let b = video.pixels[i + 2];
-            let grey = (r + b + g) / 3;
-    
-            return { r: r, g: g, b: b, grey: grey };
-        }
-    */
+
+    getNutrients(x, y) {
+        let a = ecoCommunes.find(i => (round(map(i.Longitude, -20, 45, 0, this.x)) * scl == x) && (round(map(i.Latitude, 30, 73, 0, this.y)) * scl == y));
+        //console.log(a);
+    }
+
     inBounds(x, y) {
         let bounds = x >= 0 && x < this.x && y >= 0 && y < this.y;
         return bounds;
