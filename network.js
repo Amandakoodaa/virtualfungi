@@ -1,13 +1,4 @@
-let range = 10;
-let branchingD = 13;
-let neighbourAvoidance = 0.8;
-let forwardPersistence = 1.0;
 
-let noiseV = 0.3;
-let branchNoise = 0.9;
-
-let growthStep = 1;
-let maxAttempts = 10;
 
 class Network {
     constructor(grid) {
@@ -19,8 +10,9 @@ class Network {
         this.active = true;
         this.newBranches = [];
         this.growing = true;
+        this.conflicts = conflicts;
 
-        let pos = createVector(this.grid.x / 2, this.grid.y / 2);
+        let pos = createVector(this.grid.x / 2, this.grid.y / 4);
 
         let startNode = new Node(pos);
 
@@ -37,30 +29,54 @@ class Network {
         }
     }
 
+    nutrientInfluence(node) {
+        let x = Math.round(node.pos.x);
+        let y = Math.round(node.pos.y);
+        let num = 0;
+        let dir = createVector(0, 0);
+
+        for (let nutrient of this.conflicts) {
+            let diff = p5.Vector.sub(nutrient.pos, node.pos);
+            let dSquare = diff.magSq();
+
+            if (dSquare > 0 && dSquare < nutrient.radius * nutrient.radius) {
+                diff.normalize();
+                let strength = nutrient.strength / dSquare;
+                dir.add(diff.mult(strength));
+                num++;
+            }
+        }
+        if (dir.magSq() > 0) {
+            dir.normalize();
+        }
+
+        return { dir: dir, density: num };
+    }
+
     neighbourInfluence(node) {
         let num = 0;
-        let nutrient = 0;
+        //let nutrient = 0;
 
         let x = Math.round(node.pos.x);
         let y = Math.round(node.pos.y);
-
+        //Neighbour influence values x and y
         let x2 = 0;
         let y2 = 0;
-
+        //Square of neighboring area range
         let square = range * range;
-
+        // Get the range for neighbours
         let minX = Math.max(0, x - range);
         let maxX = Math.min(this.grid.x - 1, x + range);
 
         let minY = Math.max(0, y - range);
         let maxY = Math.min(this.grid.y - 1, y + range);
-
+        //Go through range
         for (let i = minX; i <= maxX; i++) {
             for (let j = minY; j <= maxY; j++) {
 
                 let candidate = this.grid.getElement(i, j);
 
-                if (candidate !== 0 && candidate !== node && candidate !== -1) {
+                if (candidate !== 0 && candidate !== node) {
 
                     let x3 = node.pos.x - candidate.pos.x;
                     let y3 = node.pos.y - candidate.pos.y;
@@ -70,7 +86,6 @@ class Network {
                     if (dSquare > 0 && dSquare < square) {
                         //let brightness = this.grid.getPixel(i, j).grey;
                         //let nutriValue = brightness / 255;
-                        this.grid.getNutrients(x3, y3)
                         x2 += (x3 / dSquare)// * nutriValue;
                         y2 += (y3 / dSquare)// * nutriValue;
                         //nutrient += nutriValue;
@@ -79,16 +94,17 @@ class Network {
                 }
             }
         }
-
-        const magSq = x2 * x2 + y2 * y2;
-
-        if (magSq > 0) {
-            const invMag = 1 / Math.sqrt(magSq);
-            x2 *= invMag;
-            y2 *= invMag;
+        //Distance
+        const dis = sqrt(x2 * x2 + y2 * y2);
+        // Check for invalid distance of x2 and y2
+        if (dis > 0) {
+            //Invert distance so hypha tip doesn't grow towards neighbours
+            const invertDis = 1 / Math.sqrt(dis);
+            x2 *= invertDis;
+            y2 *= invertDis;
         }
 
-        return { dir: createVector(x2, y2), density: num, nutrient: nutrient };
+        return { dir: createVector(x2, y2), density: num };
     }
 
     branch(dir, node) {
@@ -129,11 +145,14 @@ class Network {
                 //Forward persistent
                 let dir = pBranch.dir.copy().mult(forwardPersistence);
                 //Neighbour avoidance
-                let influence = this.neighbourInfluence(node);
-                let avoid = influence.dir;
-                let density = influence.density;
+                let neighbour = this.neighbourInfluence(node);
+                //Nutrient influence
+                let nutrient = this.nutrientInfluence(node);
+                let avoid = neighbour.dir;
+                let density = neighbour.density;
 
                 dir.add(avoid.mult(neighbourAvoidance));
+                dir.add(nutrient.dir.mult(nutrientWeight));
 
                 let noiseValue = randomGaussian() * noiseV;
                 dir.rotate(noiseValue);
@@ -157,6 +176,12 @@ class Network {
                             newNode.branches.push(newBranch);
                             this.nextTips.push(newNode);
                             this.newBranches.push(newBranch);
+                            let conflict = this.conflicts.find(n => p5.Vector.dist(n.pos, newPos) < 1);
+                            if (conflict) {
+                                conflict.found = true;
+                                this.conflicts = this.conflicts.filter(n => n !== conflict);
+                                console.log(this.conflicts.length)
+                            }
 
                             if (density < branchingD) {
                                 this.branch(dir, newNode);
@@ -176,36 +201,42 @@ class Network {
         this.growingTips = this.nextTips;
         this.nextTips = hold;
         //console.log(this.branches.length)
-        if (hold.length === 0) {
+        if (hold.length === 0 || this.branches.length > 5000) {
             this.growing = false;
         }
     }
 
     shrink() {
-        let steps = max(1, min(this.branches.length / 10, 30));
-        this.branches = this.branches.slice(0, -steps);
-        this.nodes = this.nodes.slice(0, -steps);
+        let steps = 10;
+        this.branches.length = max(this.branches.length - steps, 0);
+        this.nodes.length = max(this.nodes.length - steps, 1);
         if (this.nodes.length === 1) {
             this.growing = true;
             this.nodes[0].growthAttempt = 0;
+            this.growingTips = [];
+            this.newBranches = [];
             this.growingTips.push(this.nodes[0]);
             this.nodes[0].branches.pop();
             this.grid.empty();
+            conflicts.forEach(n => n.found = false);
+            conflicts.forEach(n => n.soundPayed = false);
+            this.conflicts = conflicts;
+            background(col);
         }
     }
-
     show() {
         if (this.growing) {
             for (let branch of this.newBranches) {
                 branch.show();
             }
+            for (let tip of this.growingTips) {
+                tip.show()
+            }
         } else {
-            background(col);
-
             for (let branch of this.branches) {
                 branch.show();
                 blendMode(REMOVE)
-                image(img, 0, 0);
+                //image(img, 0, 0);
                 blendMode(BLEND)
             }
 

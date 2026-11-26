@@ -3,7 +3,6 @@ class Node {
         this.pos = pos.copy();
         this.branches = [];
         this.growthAttempt = 0;
-        this.grey;
     }
 
     show() {

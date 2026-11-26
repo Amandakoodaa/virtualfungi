@@ -1,9 +1,86 @@
 html,
+
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.jost-font {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
 
 canvas {
   display: block;
+}
+
+.searchBox {
+  position: absolute;
+  float: left;
+  width: 100vw;
+  height: 5vh;
+  background-color: rgb(206, 206, 206);
+  border: 10;
+  mix-blend-mode: difference;
+}
+
+#searchInput {
+  outline: none;
+  width: 33vw;
+  border: none;
+  background: rgb(174, 174, 174);
+  float: left;
+  margin: 1%;
+  margin-top: 1.5vh;
+  color: rgb(35, 35, 35);
+  font-size: 12px;
+}
+
+#info {
+  position: absolute;
+  float: left;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(206, 206, 206);
+  border: 10;
+  mix-blend-mode: difference;
+}
+
+.infoBox {
+  background: none;
+  margin: 3%;
+  margin-top: 9vh;
+  width: 33vw;
+}
+
+h1 {
+  color: rgb(35, 35, 35);
+  font-size: 32px;
+}
+
+p {
+  font-size: 13px;
+}
+
+
+@media screen and (max-width: 620px) {
+  .searchInput {
+    width: 200px;
+    padding: 0 6px;
+  }
 }
