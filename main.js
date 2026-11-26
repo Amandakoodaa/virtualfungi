@@ -33,7 +33,7 @@ let maxAttempts = 3;
 
 async function setup() {
     w = windowWidth;
-    h = windowHeight * 2;
+    h = windowHeight;
 
     textFont('Verdana');
 
@@ -60,7 +60,7 @@ async function setup() {
     background(col);
     img = createImage(w, h);
     img.loadPixels();
-    for (let i = 0; i < 500000; i++) {
+    for (let i = 0; i < 200000; i++) {
         let x = round(random(0, w));
         let y = round(random(0, h));
         let i = (x + y * w) * 4;
@@ -133,7 +133,7 @@ function windowResized() {
     img = createImage(w, h);
     img.loadPixels();
 
-    for (let i = 0; i < 500000; i++) {
+    for (let i = 0; i < 200000; i++) {
         let x = floor(random(w));
         let y = floor(random(h));
         let index = (x + y * w) * 4;

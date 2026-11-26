@@ -12,7 +12,7 @@ class Network {
         this.growing = true;
         this.conflicts = conflicts;
 
-        let pos = createVector(this.grid.x / 2, this.grid.y / 4);
+        let pos = createVector(this.grid.x / 2, this.grid.y / 2);
 
         let startNode = new Node(pos);
 
