@@ -117,7 +117,7 @@ async function handleSearch(event) {
 
 function windowResized() {
     w = windowWidth;
-    h = windowHeight * 2;
+    h = windowHeight;
 
     pixelDensity(1);
     resizeCanvas(w, h);
